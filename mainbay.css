@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(56, 138, 36);
+    color: #fff;
+    padding: 15px 0;
+    
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.search-bar {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.recipe-card-content {
+    padding: 15px;
+}
+
+.bg {
+    background-image: url('bg11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1500px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    
+    height: 150px;
+    right: 50px;
+    float: left;
+}
+h1{
+    position: relative;
+    left:300px;
+    top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: rgb(56, 138, 36);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
